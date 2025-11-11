@@ -21,9 +21,6 @@ def processCommand(command):
     elif "open linked in" in command:
         speak("Opening LinkedIn")
         webbrowser.open("https://www.linkedin.com")
-    elif "open facebook" in command:
-        speak("Opening Facebook")
-        webbrowser.open("https://www.facebook.com")
 
 
 if __name__ == "__main__":
